@@ -1,3 +1,6 @@
+onnx_export_result/model.ts filter=lfs diff=lfs merge=lfs -text
+model_final.pth filter=lfs diff=lfs merge=lfs -text
+onnx_export_result/model.onnx filter=lfs diff=lfs merge=lfs -text
 *.pth filter=lfs diff=lfs merge=lfs -text
 *.onnx filter=lfs diff=lfs merge=lfs -text
 *.ts filter=lfs diff=lfs merge=lfs -text
