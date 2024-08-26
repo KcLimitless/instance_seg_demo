@@ -1,0 +1,67 @@
+Loading and preparing results...
+DONE (t=0.00s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.05s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.362
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.580
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.407
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.138
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.290
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.485
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.254
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.420
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.420
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.238
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.333
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.518
+[08/24 14:25:49 d2.evaluation.coco_evaluation]: Evaluation results for bbox: 
+|   AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
+|:------:|:------:|:------:|:------:|:------:|:------:|
+| 36.214 | 57.993 | 40.745 | 13.835 | 29.043 | 48.516 |
+[08/24 14:25:49 d2.evaluation.coco_evaluation]: Per-category bbox AP: 
+| category   | AP     | category   | AP     | category   | AP     |
+|:-----------|:-------|:-----------|:-------|:-----------|:-------|
+| Apple      | 0.000  | Car        | 47.306 | Cherry     | 28.511 |
+| Chilly     | 0.000  | Cow        | 57.723 | Dog        | 60.644 |
+| Grapes     | 30.135 | Helmet     | 49.094 | Koala      | 38.663 |
+| Mask       | 60.000 | Person     | 62.494 | Person     | nan    |
+| Person     | nan    | Strawberry | 0.000  |            |        |
+Loading and preparing results...
+DONE (t=0.00s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.06s).
+Accumulating evaluation results...
+DONE (t=0.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.396
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.572
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.435
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.173
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.322
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.553
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.282
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.465
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.465
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.296
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.372
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.588
+[08/24 14:25:49 d2.evaluation.coco_evaluation]: Evaluation results for segm: 
+|   AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
+|:------:|:------:|:------:|:------:|:------:|:------:|
+| 39.619 | 57.208 | 43.480 | 17.289 | 32.201 | 55.311 |
+[08/24 14:25:49 d2.evaluation.coco_evaluation]: Per-category segm AP: 
+| category   | AP     | category   | AP     | category   | AP     |
+|:-----------|:-------|:-----------|:-------|:-----------|:-------|
+| Apple      | 0.000  | Car        | 65.733 | Cherry     | 34.205 |
+| Chilly     | 0.000  | Cow        | 62.772 | Dog        | 74.228 |
+| Grapes     | 33.858 | Helmet     | 43.343 | Koala      | 41.139 |
+| Mask       | 63.784 | Person     | 56.370 | Person     | nan    |
+| Person     | nan    | Strawberry | 0.000  |            |        |
+OrderedDict([('bbox', {'AP': 36.21411034228238, 'AP50': 57.99319937343209, 'AP75': 40.745213091590706, 'APs': 13.834689803822013, 'APm': 29.042851582133682, 'APl': 48.516465136731895, 'AP-Apple': 0.0, 'AP-Car': 47.306462780128236, 'AP-Cherry': 28.51084394153701, 'AP-Chilly': 0.0, 'AP-Cow': 57.72277227722772, 'AP-Dog': 60.64356435643564, 'AP-Grapes': 30.13461295976263, 'AP-Helmet': 49.09350935093509, 'AP-Koala': 38.663366336633665, 'AP-Mask': 60.0, 'AP-Person': nan, 'AP-Strawberry': 0.0}), ('segm', {'AP': 39.61922900890584, 'AP50': 57.2081208655813, 'AP75': 43.47951116250573, 'APs': 17.288933851274844, 'APm': 32.20083284499648, 'APl': 55.310953020435726, 'AP-Apple': 0.0, 'AP-Car': 65.73260738374967, 'AP-Cherry': 34.204856199905706, 'AP-Chilly': 0.0, 'AP-Cow': 62.772277227722775, 'AP-Dog': 74.22772277227723, 'AP-Grapes': 33.85818701982644, 'AP-Helmet': 43.34260568914034, 'AP-Koala': 41.13861386138613, 'AP-Mask': 63.783592644978796, 'AP-Person': nan, 'AP-Strawberry': 0.0})])
